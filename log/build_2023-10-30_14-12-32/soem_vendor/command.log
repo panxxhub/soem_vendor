@@ -1,0 +1,4 @@
+Invoking command in '/home/xpan/repos/soem_vendor/build/soem_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xpan/repos/soem_vendor/build/soem_vendor -- -j32 -l32
+Invoked command in '/home/xpan/repos/soem_vendor/build/soem_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xpan/repos/soem_vendor/build/soem_vendor -- -j32 -l32
+Invoking command in '/home/xpan/repos/soem_vendor/build/soem_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xpan/repos/soem_vendor/build/soem_vendor
+Invoked command in '/home/xpan/repos/soem_vendor/build/soem_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xpan/repos/soem_vendor/build/soem_vendor

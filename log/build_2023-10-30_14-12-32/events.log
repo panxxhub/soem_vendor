@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000327] (soem_vendor) JobQueued: {'identifier': 'soem_vendor', 'dependencies': OrderedDict()}
+[0.000525] (soem_vendor) JobStarted: {'identifier': 'soem_vendor'}
+[0.026157] (soem_vendor) JobProgress: {'identifier': 'soem_vendor', 'progress': 'cmake'}
+[0.026224] (soem_vendor) JobProgress: {'identifier': 'soem_vendor', 'progress': 'build'}
+[0.026333] (soem_vendor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xpan/repos/soem_vendor/build/soem_vendor', '--', '-j32', '-l32'], 'cwd': '/home/xpan/repos/soem_vendor/build/soem_vendor', 'env': OrderedDict([('USER', 'xpan'), ('SSH_CLIENT', '192.168.12.104 2773 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xpan'), ('OLDPWD', '/home/xpan/repos/soem_vendor'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3c654072-f36c-4ace-8837-a65725d1a0fc.sock'), ('ZSH', '/home/xpan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xpan'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/xpan'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '17'), ('TERM', 'xterm-256color'), ('DOTNET_ROOT', '/home/xpan/dotnet'), ('LOCAL_BIN', '/home/xpan/.local/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('DOTNET_TOOLS_HOME', '/home/xpan/.dotnet/tools'), ('PATH', '/opt/ros/humble/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/xpan/.dotnet/tools:/home/xpan/.local/bin:/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xpan/.pub-cache/bin:/home/xpan/dotnet'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-375d97899b.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '1'), ('CLASSPATH', '.:/usr/local/lib/antlr-4.12.0-complete.jar:'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '6b3a514b-c8a3-484c-839f-7ddc94500abc'), ('PWD', '/home/xpan/repos/soem_vendor/build/soem_vendor'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('SSH_CONNECTION', '192.168.12.104 2773 192.168.12.40 22'), ('ZDOTDIR', '/home/xpan'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041290] (soem_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099634] (-) TimerEvent: {}
+[0.199849] (-) TimerEvent: {}
+[0.300057] (-) TimerEvent: {}
+[0.306863] (soem_vendor) StdoutLine: {'line': b'-- Configuring done (0.3s)\n'}
+[0.311026] (soem_vendor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.312452] (soem_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/xpan/repos/soem_vendor/build/soem_vendor\n'}
+[0.325394] (soem_vendor) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming update step for 'soem'\x1b[0m\n"}
+[0.336060] (soem_vendor) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'soem'\x1b[0m\n"}
+[0.342998] (soem_vendor) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming configure step for 'soem'\x1b[0m\n"}
+[0.346664] (soem_vendor) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.346835] (soem_vendor) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.346941] (soem_vendor) StderrLine: {'line': b'  CMake.\n'}
+[0.347030] (soem_vendor) StderrLine: {'line': b'\n'}
+[0.347119] (soem_vendor) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.347202] (soem_vendor) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.347288] (soem_vendor) StderrLine: {'line': b'\n'}
+[0.347369] (soem_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[0.351335] (soem_vendor) StderrLine: {'line': b'\x1b[0mOS is linux\x1b[0m\n'}
+[0.351731] (soem_vendor) StderrLine: {'line': b'\x1b[0mLIB_DIR: lib\x1b[0m\n'}
+[0.353052] (soem_vendor) StdoutLine: {'line': b'-- Configuring done (0.0s)\n'}
+[0.365364] (soem_vendor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.367802] (soem_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/xpan/repos/soem_vendor/build/soem_vendor/soem/src/soem-build\n'}
+[0.373965] (soem_vendor) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mPerforming build step for 'soem'\x1b[0m\n"}
+[0.396426] (soem_vendor) StdoutLine: {'line': b'[ 68%] Built target soem\n'}
+[0.400151] (-) TimerEvent: {}
+[0.404582] (soem_vendor) StdoutLine: {'line': b'[ 78%] Built target eepromtool\n'}
+[0.404767] (soem_vendor) StdoutLine: {'line': b'[ 89%] Built target simple_test\n'}
+[0.406501] (soem_vendor) StdoutLine: {'line': b'[100%] Built target slaveinfo\n'}
+[0.414816] (soem_vendor) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming install step for 'soem'\x1b[0m\n"}
+[0.431980] (soem_vendor) StdoutLine: {'line': b'[ 68%] Built target soem\n'}
+[0.439751] (soem_vendor) StdoutLine: {'line': b'[ 78%] Built target eepromtool\n'}
+[0.440089] (soem_vendor) StdoutLine: {'line': b'[ 89%] Built target slaveinfo\n'}
+[0.440566] (soem_vendor) StdoutLine: {'line': b'[100%] Built target simple_test\n'}
+[0.446204] (soem_vendor) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.448701] (soem_vendor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.448828] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/lib/libsoem.a\n'}
+[0.449029] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercat.h\n'}
+[0.449159] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatbase.h\n'}
+[0.449251] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatcoe.h\n'}
+[0.449336] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatconfig.h\n'}
+[0.449444] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatconfiglist.h\n'}
+[0.449536] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatdc.h\n'}
+[0.449622] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercateoe.h\n'}
+[0.449724] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatfoe.h\n'}
+[0.449810] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatmain.h\n'}
+[0.449893] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatprint.h\n'}
+[0.449997] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatsoe.h\n'}
+[0.450082] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercattype.h\n'}
+[0.450167] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/osal_defs.h\n'}
+[0.450249] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/osal.h\n'}
+[0.450334] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/nicdrv.h\n'}
+[0.450416] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/oshw.h\n'}
+[0.450504] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/bin/slaveinfo\n'}
+[0.450586] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/bin/eepromtool\n'}
+[0.450670] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/bin/simple_test\n'}
+[0.454915] (soem_vendor) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mCompleted 'soem'\x1b[0m\n"}
+[0.463841] (soem_vendor) StdoutLine: {'line': b'[100%] Built target soem\n'}
+[0.467002] (soem_vendor) CommandEnded: {'returncode': 0}
+[0.476253] (soem_vendor) JobProgress: {'identifier': 'soem_vendor', 'progress': 'install'}
+[0.479086] (soem_vendor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xpan/repos/soem_vendor/build/soem_vendor'], 'cwd': '/home/xpan/repos/soem_vendor/build/soem_vendor', 'env': OrderedDict([('USER', 'xpan'), ('SSH_CLIENT', '192.168.12.104 2773 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/xpan'), ('OLDPWD', '/home/xpan/repos/soem_vendor'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3c654072-f36c-4ace-8837-a65725d1a0fc.sock'), ('ZSH', '/home/xpan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xpan'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/xpan'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '17'), ('TERM', 'xterm-256color'), ('DOTNET_ROOT', '/home/xpan/dotnet'), ('LOCAL_BIN', '/home/xpan/.local/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('DOTNET_TOOLS_HOME', '/home/xpan/.dotnet/tools'), ('PATH', '/opt/ros/humble/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/xpan/.dotnet/tools:/home/xpan/.local/bin:/home/xpan/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xpan/.pub-cache/bin:/home/xpan/dotnet'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('VSCODE_INJECTION', '1'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-375d97899b.sock'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '1'), ('CLASSPATH', '.:/usr/local/lib/antlr-4.12.0-complete.jar:'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '6b3a514b-c8a3-484c-839f-7ddc94500abc'), ('PWD', '/home/xpan/repos/soem_vendor/build/soem_vendor'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('SSH_CONNECTION', '192.168.12.104 2773 192.168.12.40 22'), ('ZDOTDIR', '/home/xpan'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.481616] (soem_vendor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.481737] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor\n'}
+[0.481859] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/lib\n'}
+[0.482027] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/lib/libsoem.a\n'}
+[0.482197] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include\n'}
+[0.482296] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem\n'}
+[0.482401] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercat.h\n'}
+[0.482467] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatbase.h\n'}
+[0.482557] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatcoe.h\n'}
+[0.482620] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatconfig.h\n'}
+[0.482690] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatconfiglist.h\n'}
+[0.482810] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatdc.h\n'}
+[0.482898] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercateoe.h\n'}
+[0.482965] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatfoe.h\n'}
+[0.483054] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatmain.h\n'}
+[0.483148] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatprint.h\n'}
+[0.483220] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatsoe.h\n'}
+[0.483310] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercattype.h\n'}
+[0.483402] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/osal_defs.h\n'}
+[0.483490] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/osal.h\n'}
+[0.483579] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/nicdrv.h\n'}
+[0.483644] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/oshw.h\n'}
+[0.483704] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/bin\n'}
+[0.483787] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/bin/slaveinfo\n'}
+[0.483851] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/bin/eepromtool\n'}
+[0.483940] (soem_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor/bin/simple_test\n'}
+[0.484022] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/ament_index/resource_index/package_run_dependencies/soem_vendor\n'}
+[0.484112] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/ament_index/resource_index/parent_prefix_path/soem_vendor\n'}
+[0.484209] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/environment/ament_prefix_path.sh\n'}
+[0.484279] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/environment/ament_prefix_path.dsv\n'}
+[0.484340] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/environment/path.sh\n'}
+[0.484400] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/environment/path.dsv\n'}
+[0.484459] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/local_setup.bash\n'}
+[0.484524] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/local_setup.sh\n'}
+[0.484604] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/local_setup.zsh\n'}
+[0.484668] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/local_setup.dsv\n'}
+[0.484753] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/package.dsv\n'}
+[0.484980] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/ament_index/resource_index/packages/soem_vendor\n'}
+[0.485195] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.485521] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/cmake/soem_vendorConfig.cmake\n'}
+[0.485723] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/cmake/soem_vendorConfig-version.cmake\n'}
+[0.485881] (soem_vendor) StdoutLine: {'line': b'-- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/share/soem_vendor/package.xml\n'}
+[0.486101] (soem_vendor) CommandEnded: {'returncode': 0}
+[0.500220] (-) TimerEvent: {}
+[0.600590] (-) TimerEvent: {}
+[0.632377] (soem_vendor) JobEnded: {'identifier': 'soem_vendor', 'rc': 0}
+[0.632809] (-) EventReactorShutdown: {}

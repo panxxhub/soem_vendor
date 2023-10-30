@@ -1,0 +1,89 @@
+[0.027s] Invoking command in '/home/xpan/repos/soem_vendor/build/soem_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xpan/repos/soem_vendor/build/soem_vendor -- -j32 -l32
+[0.036s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Configuring done (0.3s)
+[0.314s] -- Generating done (0.0s)
+[0.316s] -- Build files have been written to: /home/xpan/repos/soem_vendor/build/soem_vendor
+[0.328s] [ 12%] [34m[1mPerforming update step for 'soem'[0m
+[0.338s] [ 25%] [34m[1mNo patch step for 'soem'[0m
+[0.346s] [ 37%] [34m[1mPerforming configure step for 'soem'[0m
+[0.348s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.348s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.348s]   CMake.
+[0.348s] 
+[0.348s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.348s]   CMake that the project does not need compatibility with older versions.
+[0.348s] 
+[0.348s] [0m
+[0.350s] [0mOS is linux[0m
+[0.350s] [0mLIB_DIR: lib[0m
+[0.351s] -- Configuring done (0.0s)
+[0.357s] -- Generating done (0.0s)
+[0.358s] -- Build files have been written to: /home/xpan/repos/soem_vendor/build/soem_vendor/soem/src/soem-build
+[0.363s] [ 50%] [34m[1mPerforming build step for 'soem'[0m
+[0.388s] [ 68%] Built target soem
+[0.396s] [ 78%] Built target slaveinfo
+[0.397s] [ 89%] Built target simple_test
+[0.397s] [100%] Built target eepromtool
+[0.405s] [ 62%] [34m[1mPerforming install step for 'soem'[0m
+[0.423s] [ 68%] Built target soem
+[0.430s] [ 84%] Built target slaveinfo
+[0.430s] [100%] Built target eepromtool
+[0.430s] [100%] Built target simple_test
+[0.437s] [36mInstall the project...[0m
+[0.440s] -- Install configuration: ""
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/lib/libsoem.a
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercat.h
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatbase.h
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatcoe.h
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatconfig.h
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatconfiglist.h
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatdc.h
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercateoe.h
+[0.440s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatfoe.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatmain.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatprint.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercatsoe.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/ethercattype.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/osal_defs.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/osal.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/nicdrv.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/include/soem/oshw.h
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/bin/slaveinfo
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/bin/eepromtool
+[0.441s] -- Up-to-date: /home/xpan/repos/soem_vendor/build/soem_vendor/soem_install/bin/simple_test
+[0.447s] [ 75%] [34m[1mCompleted 'soem'[0m
+[0.457s] [100%] Built target soem
+[0.461s] Invoked command in '/home/xpan/repos/soem_vendor/build/soem_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xpan/repos/soem_vendor/build/soem_vendor -- -j32 -l32
+[0.477s] Invoking command in '/home/xpan/repos/soem_vendor/build/soem_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xpan/repos/soem_vendor/build/soem_vendor
+[0.480s] -- Install configuration: ""
+[0.480s] -- Up-to-date: /home/xpan/repos/soem_vendor/install/soem_vendor
+[0.480s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/lib
+[0.480s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/lib/libsoem.a
+[0.480s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercat.h
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatbase.h
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatcoe.h
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatconfig.h
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatconfiglist.h
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatdc.h
+[0.481s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercateoe.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatfoe.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatmain.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatprint.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercatsoe.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/ethercattype.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/osal_defs.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/osal.h
+[0.482s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/nicdrv.h
+[0.483s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/include/soem/oshw.h
+[0.483s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/bin
+[0.483s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/bin/slaveinfo
+[0.484s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/bin/eepromtool
+[0.484s] -- Installing: /home/xpan/repos/soem_vendor/install/soem_vendor/bin/simple_test
+[0.484s] [31mCMake Error at cmake_install.cmake:58 (file):
+[0.484s]   file INSTALL cannot find "/home/xpan/repos/soem_vendor/cmake": No such file
+[0.484s]   or directory.
+[0.485s] 
+[0.485s] [0m
+[0.485s] Invoked command in '/home/xpan/repos/soem_vendor/build/soem_vendor' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xpan/repos/soem_vendor/build/soem_vendor

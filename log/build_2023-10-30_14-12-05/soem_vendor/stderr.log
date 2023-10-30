@@ -1,0 +1,16 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mOS is linux[0m
+[0mLIB_DIR: lib[0m
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/xpan/repos/soem_vendor/build/soem_vendor/some_install": No such file
+  or directory.
+
+[0m
