@@ -22,11 +22,6 @@ install (
   DESTINATION ${CMAKE_INSTALL_PREFIX}
 )
 
-install (
-  DIRECTORY cmake
-  DESTINATION share/${PROJECT_NAME}
-)
-
 ament_export_include_directories(include/soem)
 ament_export_libraries(soem)
 
